@@ -52,11 +52,11 @@
 
 ### * ariori 알고리즘 원리
 
+
+
+
+
 ![image-20200919111833405](association rule apriori.assets/image-20200919111833405.png)
-
-
-
-
 
 ### * ariori 알고리즘 설명
 
@@ -178,8 +178,6 @@
 
 
 
-
-
 ![image-20200919131416174](association rule apriori.assets/image-20200919131416174.png)
 
 ## 3. 순회 패턴 탐사 ( Path Traveling behavior : Web Mining)
@@ -191,7 +189,5 @@
   - user access tree 구성
   - Tree 상의 path 검색을 통하여 user traveling behavior 추출
   - 그 중에서 가치 있는 path 를 user traveling havior 선택
-
-
 
 ![image-20200919131958229](association rule apriori.assets/image-20200919131958229.png)
