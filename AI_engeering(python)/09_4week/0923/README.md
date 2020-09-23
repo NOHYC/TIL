@@ -74,7 +74,7 @@ dtype: int64
 train.groupby('Pclass').Survived.mean().plot(kind = 'bar')
 ```
 
-![image-20200923185537873](0923 수업 요약.assets/image-20200923185537873.png)
+![image-20200923185537873](README.assets/image-20200923185537873.png)
 
 
 
@@ -105,7 +105,7 @@ Pclass
 sns.factorplot('Sex','Survived',hue = 'Pclass',data= train,aspect =2)
 ```
 
-![image-20200923190153827](0923 수업 요약.assets/image-20200923190153827.png)
+![image-20200923190153827](README.assets/image-20200923190153827.png)
 
 
 
@@ -136,7 +136,7 @@ Name: Survived, dtype: int64
 sns.barplot('Embarked','Survived',data = train)
 ```
 
-![image-20200923190644162](0923 수업 요약.assets/image-20200923190644162.png)
+![image-20200923190644162](README.assets/image-20200923190644162.png)
 
 ==> C항구에서 탑승한 인원의 생존률이 높았다. 
 
@@ -174,7 +174,7 @@ Name: Survived, dtype: int64
 sns.barplot('Parch','Survived',data= train)
 ```
 
-![image-20200923191627487](0923 수업 요약.assets/image-20200923191627487.png)
+![image-20200923191627487](README.assets/image-20200923191627487.png)
 
 
 
@@ -214,7 +214,7 @@ Name: Survived, dtype: int64
 sns.barplot('SibSp','Survived',data= train,ci =None)
 ```
 
-![image-20200923191958600](0923 수업 요약.assets/image-20200923191958600.png)
+![image-20200923191958600](README.assets/image-20200923191958600.png)
 
 ==> SibSp는 1,2,3,4 오름차순으로 생존률이 높다.
 
@@ -234,7 +234,7 @@ sns.violinplot('Pclass','Age',hue= 'Survived',data=train,ax = ax2)
 sns.violinplot('Sex','Age',hue= 'Survived',data=train,ax = ax3)
 ```
 
-![image-20200923192340175](0923 수업 요약.assets/image-20200923192340175.png)
+![image-20200923192340175](README.assets/image-20200923192340175.png)
 
 
 
@@ -272,7 +272,7 @@ sns.distplot(total_not_survived['Age'].dropna().values,kde=False,bins = range(0,
 
 - 생존자 blue / 사망자 red
 
-![image-20200923194607398](0923 수업 요약.assets/image-20200923194607398.png)
+![image-20200923194607398](README.assets/image-20200923194607398.png)
 
 ==> 0 ~ 15 세는 생존자가 많고 15 ~ 70 세는 사망자가 많다.
 
@@ -291,7 +291,7 @@ sns.distplot(male_not_survived['Age'].dropna().values,kde=False,bins = range(0,8
 
 - 생존자 blue, 사망자 red
 
-![image-20200923194842745](0923 수업 요약.assets/image-20200923194842745.png)
+![image-20200923194842745](README.assets/image-20200923194842745.png)
 
 
 
@@ -326,7 +326,7 @@ sns.heatmap(train.drop(columns='PassengerId').corr(),square = True,annot = True,
 
 
 
-![image-20200923195354998](0923 수업 요약.assets/image-20200923195354998.png)
+![image-20200923195354998](README.assets/image-20200923195354998.png)
 
 
 
