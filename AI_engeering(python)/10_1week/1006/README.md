@@ -1,6 +1,24 @@
 # 1006
 
-## R 기본 사용법 
+## R 언어
+
+>install.packages('패키지 이름'), library('패키지 이름') , left_join 
+>
+>변수명 <- c( 숫자 (문자), 숫자(문자) ), data.frame(배열,배열 .... ) , df$columns 
+>
+>read_excel('경로',col_names = T/F , sheet = n), str(df), write.csv(data , 'data.csv')
+>
+>head(df),tail(df) , dim(df) , surmmary(df), rename(data, 변경 후column 이름 = 변경 전 column 이름) , qplot(데이터)
+>
+>ifelse(조건식, 참, 거짓 ) ,  table(데이터 프레임$ 컬럼명) , %>% , filter(참인 조건식)
+>
+>select(컬럼 명) ,  arrange(컬럼명),  mutate(생성컬럼 = data) 
+>
+>summarise(생성 컬럼명 = 컬럼에 함수 적용 ) , group_by(컬럼명)
+>
+>ggplot2::mpg,  bind_rows(df1,df2) , left_join(df1,df2,by= 컬럼명) 
+
+### R 기본 사용법 
 
 - 코드 실행 방법
   - 스크립트창에 코드 입력 후 ctrl + Enter
@@ -10,7 +28,7 @@
 - 모르는 함수, 라이브러리 검색 
   - 스크립트에 함수(라이브러리) 이름 넣고 F1 누르면 사용 방법 나옴 
 
-## R 기본 문법 
+### R 기본 문법 
 
 install.packages('패키지 이름') : 패키지 다운로드
 
@@ -144,7 +162,7 @@ exam %>%
 
 
 
-group_by : 집계함수 groupby 
+group_by(컬럼명) : 집계함수 groupby 
 
 - df.groupby('컬럼').적용함수()
 
