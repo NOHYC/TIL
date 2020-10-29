@@ -224,4 +224,5 @@ res.to_csv('sub.csv',index = False)
 
 - 결과
 
-![image-20201004123009168](C:\Users\nyc15\AppData\Roaming\Typora\typora-user-images\image-20201004123009168.png)
+![image-20201004123009168](README.assets/image-20201004123009168.png)
+
