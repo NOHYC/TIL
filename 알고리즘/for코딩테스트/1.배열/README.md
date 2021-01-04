@@ -270,4 +270,4 @@ print(data[0])
       > StopIteration
       > ```
 
-![image-20210102183046345](배열(Array).assets/image-20210102183046345.png)
+![image-20210102183046345](README.assets/image-20210102183046345.png)
