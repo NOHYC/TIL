@@ -87,9 +87,9 @@ $ git push origin master
 - `![]()` 을 작성하고 `()` 안에 이미지 주소를 입력합니다. `[]`안에는 이미지 파일의 이름을 작성합니다.
 - 로컬에 이미 파일을 저장한 경우 절대 경로가 아닌 상대 경로를 사용하여 이미지를 저장합니다.
 
-![index.png](C:\Users\nyc15\index.png)
+![index.png](00_markdown_basic.assets/index.png)
 
-![index1.png](C:\Users\nyc15\index1.png)
+![index1.png](00_markdown_basic.assets/index1.png)
 
 
 
